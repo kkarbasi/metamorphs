@@ -108,7 +108,7 @@ def main():
 #     np.save("data/multi_dsprites/processed/training_imgareas_rand4.npy", train_img_areas)
 
     # Generate validation data
-    print("Generate validation images...")
+#    print("Generate validation images...")
 #     val_images, val_masks, val_obj_counts, val_obj_areas, val_img_areas = generate(sprites, 10000)
 #     print("Saving...")
 #     np.save("data/multi_dsprites/processed/validation_images_rand4.npy",
@@ -119,7 +119,7 @@ def main():
 #     np.save("data/multi_dsprites/processed/validation_objareas_rand4.npy", val_obj_areas)
 #     np.save("data/multi_dsprites/processed/validation_imgareas_rand4.npy", val_img_areas)
     # Generate test data
-    print("Generate test images...")
+#    print("Generate test images...")
 #     test_images, test_masks, test_obj_counts, test_obj_areas, test_img_areas = generate(sprites, 10000)
 #     print("Saving...")
 #     np.save("data/multi_dsprites/processed/test_images_rand4.npy",
