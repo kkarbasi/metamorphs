@@ -96,40 +96,40 @@ def main():
 
     # --- Random colours ---
     # Generate training data
-    print("Generate training images...")
-    train_images, train_masks, train_obj_counts, train_obj_areas, train_img_areas = generate(sprites, 50000)
-    print("Saving...")
-    np.save("data/multi_dsprites/processed/training_images_rand4.npy",
-            train_images)
-    np.save("data/multi_dsprites/processed/training_masks_rand4.npy",
-            train_masks)
-    np.save("data/multi_dsprites/processed/training_objcounts_rand4.npy", train_obj_counts)
-    np.save("data/multi_dsprites/processed/training_objareas_rand4.npy", train_obj_areas)
-    np.save("data/multi_dsprites/processed/training_imgareas_rand4.npy", train_img_areas)
+#     print("Generate training images...")
+#     train_images, train_masks, train_obj_counts, train_obj_areas, train_img_areas = generate(sprites, 50000)
+#     print("Saving...")
+#     np.save("data/multi_dsprites/processed/training_images_rand4.npy",
+#             train_images)
+#     np.save("data/multi_dsprites/processed/training_masks_rand4.npy",
+#             train_masks)
+#     np.save("data/multi_dsprites/processed/training_objcounts_rand4.npy", train_obj_counts)
+#     np.save("data/multi_dsprites/processed/training_objareas_rand4.npy", train_obj_areas)
+#     np.save("data/multi_dsprites/processed/training_imgareas_rand4.npy", train_img_areas)
 
     # Generate validation data
     print("Generate validation images...")
-    val_images, val_masks, val_obj_counts, val_obj_areas, val_img_areas = generate(sprites, 10000)
-    print("Saving...")
-    np.save("data/multi_dsprites/processed/validation_images_rand4.npy",
-            val_images)
-    np.save("data/multi_dsprites/processed/validation_masks_rand4.npy",
-            val_masks)
-    np.save("data/multi_dsprites/processed/validation_objcounts_rand4.npy", val_obj_counts)
-    np.save("data/multi_dsprites/processed/validation_objareas_rand4.npy", val_obj_areas)
-    np.save("data/multi_dsprites/processed/validation_imgareas_rand4.npy", val_img_areas)
+#     val_images, val_masks, val_obj_counts, val_obj_areas, val_img_areas = generate(sprites, 10000)
+#     print("Saving...")
+#     np.save("data/multi_dsprites/processed/validation_images_rand4.npy",
+#             val_images)
+#     np.save("data/multi_dsprites/processed/validation_masks_rand4.npy",
+#             val_masks)
+#     np.save("data/multi_dsprites/processed/validation_objcounts_rand4.npy", val_obj_counts)
+#     np.save("data/multi_dsprites/processed/validation_objareas_rand4.npy", val_obj_areas)
+#     np.save("data/multi_dsprites/processed/validation_imgareas_rand4.npy", val_img_areas)
     # Generate test data
     print("Generate test images...")
-    test_images, test_masks, test_obj_counts, test_obj_areas, test_img_areas = generate(sprites, 10000)
-    print("Saving...")
-    np.save("data/multi_dsprites/processed/test_images_rand4.npy",
-            test_images)
-    np.save("data/multi_dsprites/processed/test_masks_rand4.npy",
-            test_masks)
-    np.save("data/multi_dsprites/processed/test_objcounts_rand4.npy", test_obj_counts)
-    np.save("data/multi_dsprites/processed/test_objareas_rand4.npy", test_obj_areas)
-    np.save("data/multi_dsprites/processed/test_imgareas_rand4.npy", test_img_areas)
-    print("Done!")
+#     test_images, test_masks, test_obj_counts, test_obj_areas, test_img_areas = generate(sprites, 10000)
+#     print("Saving...")
+#     np.save("data/multi_dsprites/processed/test_images_rand4.npy",
+#             test_images)
+#     np.save("data/multi_dsprites/processed/test_masks_rand4.npy",
+#             test_masks)
+#     np.save("data/multi_dsprites/processed/test_objcounts_rand4.npy", test_obj_counts)
+#     np.save("data/multi_dsprites/processed/test_objareas_rand4.npy", test_obj_areas)
+#     np.save("data/multi_dsprites/processed/test_imgareas_rand4.npy", test_img_areas)
+#     print("Done!")
 
     # --- Unique random colours ---
     # Generate training data
